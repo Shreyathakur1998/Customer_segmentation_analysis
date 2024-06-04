@@ -28,9 +28,14 @@ In the data cleaning step the data quality of the following datasets were first 
   - Checked whether there are duplicate records present in the dataset. In this dataset there were no duplicate records.
 - <b>CustomerAddress.xlsx</b> :
   - For states column there was no standardisation of data. Based on the values available the column data was standardised to remove data inconsistency.
-  - There were certain customer IDs from Customer Dempgraphics table which were getting dropped in the Address table.
+  - There were certain customer IDs from Customer Demographics table which were getting dropped in the Address table.
+ 
 
-
-
-
-
+### 2. Exploratory Data Analysis on Customer Segments
+After the data cleaning process, exploratory analysis on the dataset is performed and the following insights are obtained :
+- <b>New vs Old Customers Age Distribution</b><br> 
+  - Most New customers are aged between 40-49 also for Old Customers the most of them are aged between 40-49
+  - The lowest number of customers for both the types of customers is present in the age bracket under 20 and above 80 age groups.
+  - The automobile company is popular among New Customers among the age groups 20-29 and 40-49. 
+  - A steep drop in customers is observed in the 30-39 age group among the New Customers<br>
+ 
